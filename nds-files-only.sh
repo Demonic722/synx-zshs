@@ -9,5 +9,5 @@ then
 fi
 
 echo "Removing non-nds files from $1"
-rm -v ^*.nds > /tmp/nds-files-only-out.txt
+rm -v $1/^*.nds > /tmp/nds-files-only-out.txt
 echo "Done!"
