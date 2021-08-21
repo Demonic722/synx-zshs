@@ -1,0 +1,83 @@
+# All files starting with . or ~
+.*
+~*
+
+# Node/grunt dependency directories
+node_modules/
+
+# Composer vendor directory
+/vendor
+
+# Components loaded via Bower
+/bower_components
+
+# Jekyll build directory
+/_site
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+Icon?
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Log files and databases
+log/
+*.log
+*.sql
+*.sqlite
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+local.properties
+
+# Generic Android
+bin/
+target
+gen/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Private/secret files
+*.der
+*.key
+*.pem
+
+# XCode 4
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!.env.example
